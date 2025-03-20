@@ -1,0 +1,116 @@
+/* Cyberpunk Portfolio - Dark/Light Mode */
+:root {
+  --bg-dark: #0a0f24;
+  --bg-light: #f5f5f5;
+  --text-dark: #222;
+  --text-light: #e0e0e0;
+  --accent-cyan: #00ffff;
+  --accent-magenta: #ff0077;
+}
+
+/* Default Dark Theme */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  margin: 0;
+  padding: 0;
+  transition:
+    background 0.3s,
+    color 0.3s;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 2rem;
+  color: var(--accent-cyan);
+}
+
+#theme-toggle {
+  font-size: 1.2rem;
+  padding: 10px;
+  background: var(--accent-magenta);
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#theme-toggle:hover {
+  background: var(--accent-cyan);
+}
+
+/* Intro Section */
+.intro h2 {
+  font-size: 1.8rem;
+  color: var(--accent-magenta);
+}
+
+/* Skills Section */
+.skills {
+  padding: 20px;
+}
+
+.skill-list span {
+  display: inline-block;
+  padding: 10px;
+  background: var(--accent-cyan);
+  color: #000;
+  margin: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Experience */
+.experience {
+  padding: 20px;
+}
+
+.job {
+  background: rgba(255, 255, 255, 0.1);
+  margin: 10px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+/* Contact */
+.contact a {
+  color: var(--accent-cyan);
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* Light Mode */
+.light-mode {
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+}
+
+.light-mode header {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.light-mode .skill-list span {
+  background: var(--accent-magenta);
+  color: white;
+}
+
+.light-mode .job {
+  background: rgba(0, 0, 0, 0.1);
+}

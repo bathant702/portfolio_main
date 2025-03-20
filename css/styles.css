@@ -1,0 +1,33 @@
+/* Cyberpunk Portfolio - Dark/Light Mode */
+:root {
+  .bg-dark;
+}
+
+/* Default Dark Theme */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  margin: 0;
+  padding: 0;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Light Mode */
+.light-mode {
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+}
+
+.light-mode header {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.light-mode .skill-list span {
+  background: var(--accent-magenta);
+  color: white;
+}
+
+.light-mode .job {
+  background: rgba(0, 0, 0, 0.1);
+}
