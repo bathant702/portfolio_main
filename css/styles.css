@@ -1,20 +1,25 @@
 /* Cyberpunk Portfolio - Dark/Light Mode */
 :root {
-  .bg-dark;
+  --bs-body-bg: rgb(15, 13, 27);
+  margin: 5vh;
+}
+
+body {
+  color: var(--bs-light);
 }
 
 /* Default Dark Theme */
-body {
+/* body {
   font-family: "Poppins", sans-serif;
-  background-color: var(--bg-dark);
+  background-color: black;
   color: var(--text-light);
   margin: 0;
   padding: 0;
   transition: background 0.3s, color 0.3s;
-}
+} */
 
 /* Light Mode */
-.light-mode {
+/* .light-mode {
   background-color: var(--bg-light);
   color: var(--text-dark);
 }
@@ -30,4 +35,4 @@ body {
 
 .light-mode .job {
   background: rgba(0, 0, 0, 0.1);
-}
+} */
