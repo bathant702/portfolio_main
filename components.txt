@@ -1,0 +1,32 @@
+<!-- Nav Bar -->
+links to each section of site
+
+<!-- Intro -->
+Who I am, my goals, some history.
+
+<!-- services -->
+Web site design and development, tutoring/teaching, consulting
+
+<!-- Skillset -->
+Front-End - HTML, CSS, JS, Bootstrap 5.0, SASS, React.js, TypeScript
+Back-End - Node.js
+
+<!-- Projects -->
+6 projects
+- wordpress site
+- shopify site
+- react/typescript project
+- app?
+- app?
+
+
+<!-- Social Media/Contact -->
+
+
+
+
+How do I proceed with a mobile first mindset?
+
+Also, have notes on bootstrap as you're using it.
+https://www.freecodecamp.org/news/how-to-create-a-portfolio-website-using-html-css-javascript-and-bootstrap/#heading-what-is-bootstrap
+This is what you're using to create te

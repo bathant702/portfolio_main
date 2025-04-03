@@ -8,6 +8,10 @@ body {
   color: var(--bs-light);
 }
 
+.project-frame {
+  background-color: red;
+}
+
 /* Default Dark Theme */
 /* body {
   font-family: "Poppins", sans-serif;
